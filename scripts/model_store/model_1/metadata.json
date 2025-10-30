@@ -1,0 +1,55 @@
+{
+  "model_name": "logistic_regression",
+  "model_id": "model_1",
+  "train_accuracy": 0.7873303167420814,
+  "val_accuracy": 0.765702891326022,
+  "train_roc_auc": 0.8681221989912797,
+  "val_roc_auc": 0.843140661801614,
+  "test_accuracy": 0.7578125,
+  "test_roc_auc": 0.8408556971175567,
+  "feature_count": 84,
+  "train_samples": 2873,
+  "val_samples": 1003,
+  "test_samples": 1024,
+  "oot_accuracy": 0.7657841140529531,
+  "oot_roc_auc": 0.8215196828760941,
+  "oot_samples": 491,
+  "training_date": "2025-10-30 04:34:39",
+  "snapshot_date": "2024-12-01",
+  "label_definition": "30dpd_6mob",
+  "model_type": "Logistic Regression",
+  "temporal_splits": {
+    "description": "Absolute date mode - Used when temporal_window_mode='absolute' or as fallback",
+    "train": {
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-01",
+      "description": "Training period - earliest data for model learning"
+    },
+    "validation": {
+      "start_date": "2024-01-01",
+      "end_date": "2024-02-01",
+      "description": "Validation period - hyperparameter tuning and model selection"
+    },
+    "test": {
+      "start_date": "2024-03-01",
+      "end_date": "2024-04-01",
+      "description": "Test period - final evaluation before deployment"
+    },
+    "oot": {
+      "start_date": "2024-05-01",
+      "end_date": "2024-05-01",
+      "description": "Out-of-Time period - production simulation with completely unseen future data"
+    }
+  },
+  "hyperparameters": {
+    "model_type": "logistic_regression",
+    "max_iter": 1000,
+    "C": 1.0,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "preprocessing": {
+    "imputation": "median",
+    "scaling": "StandardScaler"
+  }
+}

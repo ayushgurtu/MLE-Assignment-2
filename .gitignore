@@ -235,35 +235,5 @@ __marimo__/
 /CLAUDE.md.bak
 # END Ruler Generated Files
 
-data/
-
-lab_2/
-lab_2.zip
-lab_5/
-lab_5.zip
-
-
-sample_assignments/
-
-scripts/datamart/gold/monitoring
-scripts/datamart/gold/predictions
-scripts/datamart/gold/feature_store
-scripts/datamart/gold/label_store
-
-scripts/datamart/silver
-scripts/datamart/bronze
-scripts/datamart/quarantine
-
-scripts/outputs/actions
-scripts/outputs/visuals
-
-scripts/model_store/model_1
-scripts/model_store/model_2
-
 # Allow .gitkeep files to track empty directories
 !**/.gitkeep
-
-.vscode
-.claude/
-.specstory/
-.cursorindexingignore
