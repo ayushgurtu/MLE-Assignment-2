@@ -1,6 +1,4 @@
 # MLE Assignment 2
- 
- --- IGNORE ---
 
 This repository contains an end-to-end machine learning pipeline for loan default prediction. It demonstrates a production-like MLOps workflow using the medallion architecture (Bronze → Silver → Gold) orchestrated by Apache Airflow. The pipeline performs data ingestion, feature engineering, model training, batch inference, monitoring, visualization, and action assessment.
 
